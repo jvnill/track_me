@@ -1,4 +1,5 @@
 # TrackMe
+[![Build Status](https://travis-ci.org/jvnill/track_me.png)](https://travis-ci.org/jvnill/track_me)
 
 This is a gem that allows you to easily add javascript based metric systems like kissmetrics and mixpanel to your application.
 
