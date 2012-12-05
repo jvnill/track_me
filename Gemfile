@@ -2,5 +2,3 @@ source 'https://rubygems.org'
 
 # Specify your gem's dependencies in trackme.gemspec
 gemspec
-
-gem 'rake'
