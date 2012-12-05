@@ -1,0 +1,3 @@
+- if @trackme_string
+  = render 'track_me/mixpanel' if ENABLED_METRICS.include?('mixpanel')
+  = render 'track_me/kissmetrics' if ENABLED_METRICS.include?('kissmetrics')
