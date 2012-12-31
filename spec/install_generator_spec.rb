@@ -18,7 +18,7 @@ describe TrackMe::InstallGenerator do
 
   specify 'metric templates are properly generated' do
     assert_file 'app/views/track_me/_js.html.haml'
-    assert_file 'app/views/track_me/_mixpanel.html.haml', /Initialize Mixpanel/
-    assert_file 'app/views/track_me/_kissmetrics.html.haml', /Initialize Kissmetrics/
+    assert_file 'app/views/track_me/_mixpanel_init.html.haml', /Initialize Mixpanel/
+    assert_file 'app/views/track_me/_kissmetrics_init.html.haml', /Initialize Kissmetrics/
   end
 end
